@@ -18,30 +18,29 @@ USE `flymestudio`;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `team`
+-- Table structure for table `user`
 --
 
-DROP TABLE IF EXISTS `team`;
+DROP TABLE IF EXISTS `user`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `team` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `name` tinytext NOT NULL,
+CREATE TABLE `user` (
   `tel` varchar(11) NOT NULL,
-  `members` longtext NOT NULL,
-  PRIMARY KEY (`id`),
-  KEY `fk_team_1_idx` (`tel`),
-  CONSTRAINT `fk_team_1` FOREIGN KEY (`tel`) REFERENCES `user` (`tel`) ON DELETE NO ACTION ON UPDATE NO ACTION
+  `name` tinytext NOT NULL,
+  `email` varchar(32) NOT NULL,
+  `password` varchar(8) NOT NULL,
+  PRIMARY KEY (`tel`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `team`
+-- Dumping data for table `user`
 --
 
-LOCK TABLES `team` WRITE;
-/*!40000 ALTER TABLE `team` DISABLE KEYS */;
-/*!40000 ALTER TABLE `team` ENABLE KEYS */;
+LOCK TABLES `user` WRITE;
+/*!40000 ALTER TABLE `user` DISABLE KEYS */;
+INSERT INTO `user` VALUES ('13608089849','曾宇','1213814232@qq.com','123456');
+/*!40000 ALTER TABLE `user` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -53,4 +52,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-04-08 19:11:43
+-- Dump completed on 2018-04-08 19:14:02

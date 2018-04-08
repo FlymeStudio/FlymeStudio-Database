@@ -18,29 +18,32 @@ USE `flymestudio`;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `user`
+-- Table structure for table `summary`
 --
 
-DROP TABLE IF EXISTS `user`;
+DROP TABLE IF EXISTS `summary`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `user` (
+CREATE TABLE `summary` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `tel` varchar(11) NOT NULL,
-  `name` tinytext NOT NULL,
-  `email` varchar(32) NOT NULL,
-  `password` varchar(8) NOT NULL,
-  PRIMARY KEY (`tel`)
+  `type` int(1) NOT NULL,
+  `date` varchar(16) NOT NULL,
+  `title` tinytext NOT NULL,
+  `content` longtext NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `fk_summary_1_idx` (`tel`),
+  CONSTRAINT `fk_summary_1` FOREIGN KEY (`tel`) REFERENCES `user` (`tel`) ON DELETE NO ACTION ON UPDATE NO ACTION
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `user`
+-- Dumping data for table `summary`
 --
 
-LOCK TABLES `user` WRITE;
-/*!40000 ALTER TABLE `user` DISABLE KEYS */;
-INSERT INTO `user` VALUES ('13608089849','曾宇','1213814232@qq.com','123456');
-/*!40000 ALTER TABLE `user` ENABLE KEYS */;
+LOCK TABLES `summary` WRITE;
+/*!40000 ALTER TABLE `summary` DISABLE KEYS */;
+/*!40000 ALTER TABLE `summary` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -52,4 +55,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-04-08 19:11:43
+-- Dump completed on 2018-04-08 19:14:02

@@ -18,32 +18,30 @@ USE `flymestudio`;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `summary`
+-- Table structure for table `team`
 --
 
-DROP TABLE IF EXISTS `summary`;
+DROP TABLE IF EXISTS `team`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `summary` (
+CREATE TABLE `team` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` tinytext NOT NULL,
   `tel` varchar(11) NOT NULL,
-  `type` int(1) NOT NULL,
-  `date` varchar(16) NOT NULL,
-  `title` tinytext NOT NULL,
-  `content` longtext NOT NULL,
+  `members` longtext NOT NULL,
   PRIMARY KEY (`id`),
-  KEY `fk_summary_1_idx` (`tel`),
-  CONSTRAINT `fk_summary_1` FOREIGN KEY (`tel`) REFERENCES `user` (`tel`) ON DELETE NO ACTION ON UPDATE NO ACTION
+  KEY `fk_team_1_idx` (`tel`),
+  CONSTRAINT `fk_team_1` FOREIGN KEY (`tel`) REFERENCES `user` (`tel`) ON DELETE NO ACTION ON UPDATE NO ACTION
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `summary`
+-- Dumping data for table `team`
 --
 
-LOCK TABLES `summary` WRITE;
-/*!40000 ALTER TABLE `summary` DISABLE KEYS */;
-/*!40000 ALTER TABLE `summary` ENABLE KEYS */;
+LOCK TABLES `team` WRITE;
+/*!40000 ALTER TABLE `team` DISABLE KEYS */;
+/*!40000 ALTER TABLE `team` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -55,4 +53,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-04-08 19:11:43
+-- Dump completed on 2018-04-08 19:14:02

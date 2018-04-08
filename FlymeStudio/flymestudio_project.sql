@@ -18,35 +18,34 @@ USE `flymestudio`;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `message`
+-- Table structure for table `project`
 --
 
-DROP TABLE IF EXISTS `message`;
+DROP TABLE IF EXISTS `project`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `message` (
+CREATE TABLE `project` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
+  `tel` varchar(11) NOT NULL,
+  `percent` int(3) NOT NULL,
   `type` int(1) NOT NULL,
-  `sender` varchar(11) NOT NULL,
-  `receiver` varchar(11) NOT NULL,
-  `teamid` int(11) NOT NULL,
+  `date` varchar(16) NOT NULL,
+  `title` tinytext NOT NULL,
+  `content` longtext NOT NULL,
+  `plans` longtext NOT NULL,
   PRIMARY KEY (`id`),
-  KEY `fk_message_1_idx` (`sender`),
-  KEY `fk_message_2_idx` (`receiver`),
-  KEY `fk_message_3_idx` (`teamid`),
-  CONSTRAINT `fk_message_1` FOREIGN KEY (`sender`) REFERENCES `user` (`tel`) ON DELETE NO ACTION ON UPDATE NO ACTION,
-  CONSTRAINT `fk_message_2` FOREIGN KEY (`receiver`) REFERENCES `user` (`tel`) ON DELETE NO ACTION ON UPDATE NO ACTION,
-  CONSTRAINT `fk_message_3` FOREIGN KEY (`teamid`) REFERENCES `team` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
+  KEY `fk_project_1_idx` (`tel`),
+  CONSTRAINT `fk_project_1` FOREIGN KEY (`tel`) REFERENCES `user` (`tel`) ON DELETE NO ACTION ON UPDATE NO ACTION
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `message`
+-- Dumping data for table `project`
 --
 
-LOCK TABLES `message` WRITE;
-/*!40000 ALTER TABLE `message` DISABLE KEYS */;
-/*!40000 ALTER TABLE `message` ENABLE KEYS */;
+LOCK TABLES `project` WRITE;
+/*!40000 ALTER TABLE `project` DISABLE KEYS */;
+/*!40000 ALTER TABLE `project` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -58,4 +57,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-04-08 19:11:43
+-- Dump completed on 2018-04-08 19:14:02
