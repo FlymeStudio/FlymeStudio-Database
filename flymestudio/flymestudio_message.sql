@@ -1,3 +1,5 @@
+CREATE DATABASE  IF NOT EXISTS `flymestudio` /*!40100 DEFAULT CHARACTER SET latin1 */;
+USE `flymestudio`;
 -- MySQL dump 10.13  Distrib 5.7.20, for Linux (x86_64)
 --
 -- Host: localhost    Database: flymestudio
@@ -23,11 +25,11 @@ DROP TABLE IF EXISTS `message`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `message` (
-  `id` bigint(11) NOT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `type` int(1) NOT NULL,
-  `sender` bigint(11) NOT NULL,
-  `receiver` bigint(11) NOT NULL,
-  `teamid` bigint(11) NOT NULL,
+  `sender` varchar(11) NOT NULL,
+  `receiver` varchar(11) NOT NULL,
+  `teamid` int(11) NOT NULL,
   PRIMARY KEY (`id`),
   KEY `fk_message_1_idx` (`sender`),
   KEY `fk_message_2_idx` (`receiver`),
@@ -56,4 +58,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-03-30 15:16:58
+-- Dump completed on 2018-04-08 19:11:43
