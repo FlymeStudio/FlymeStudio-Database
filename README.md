@@ -60,7 +60,7 @@ sudo apt-get install mysql-workbench
     <td></td>
     <td></td>
     <td>:ballot_box_with_check:</td>
-    <td></td>
+    <td>最大32位字符</td>
   </tr>
   <tr>
     <td>password</td>
@@ -69,7 +69,7 @@ sudo apt-get install mysql-workbench
     <td></td>
     <td></td>
     <td>:ballot_box_with_check:</td>
-    <td></td>
+    <td>最大8位字符</td>
   </tr>
   <tr>
     <td>teams</td>
@@ -78,7 +78,7 @@ sudo apt-get install mysql-workbench
     <td></td>
     <td></td>
     <td>:ballot_box_with_check:</td>
-    <td>JSON字符串</td>
+    <td>JSON数组字符串</td>
   </tr>
 </table>
 
@@ -96,7 +96,7 @@ sudo apt-get install mysql-workbench
     <th width="30%", bgcolor=lightgrey>Note</th>
   </tr>
   <tr>
-    <td>id</td>
+    <td id="team_id">id</td>
     <td>int(11)</td>
     <td>:ballot_box_with_check:</td>
     <td></td>
@@ -111,7 +111,7 @@ sudo apt-get install mysql-workbench
     <td></td>
     <td></td>
     <td>:ballot_box_with_check:</td>
-    <td></td>
+    <td>最大8位汉字</td>
   </tr>
   <tr>
     <td>tel</td>
@@ -129,7 +129,7 @@ sudo apt-get install mysql-workbench
     <td></td>
     <td></td>
     <td>:ballot_box_with_check:</td>
-    <td>JSON字符串</td>
+    <td>JSON数组字符串</td>
   </tr>
 </table>
 
@@ -225,15 +225,6 @@ sudo apt-get install mysql-workbench
     <td>user.tel</td>
   </tr>
   <tr>
-    <td>percent</td>
-    <td>int(3)</td>
-    <td></td>
-    <td></a></td>
-    <td></td>
-    <td>:ballot_box_with_check:</td>
-    <td>最大3位，默认为0</td>
-  </tr>
-  <tr>
     <td>type</td>
     <td>int(1)</td>
     <td></td>
@@ -258,7 +249,7 @@ sudo apt-get install mysql-workbench
     <td></td>
     <td></td>
     <td>:ballot_box_with_check:</td>
-    <td></td>
+    <td>最大16为字符</td>
   </tr>
   <tr>
     <td>content</td>
@@ -336,7 +327,7 @@ sudo apt-get install mysql-workbench
     <td></td>
     <td></td>
     <td>:ballot_box_with_check:</td>
-    <td></td>
+    <td>最大16为字符</td>
   </tr>
   <tr>
     <td>content</td>
