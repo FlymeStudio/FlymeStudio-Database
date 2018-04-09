@@ -16,9 +16,11 @@ sudo apt-get install mysql-workbench
 ---
 ## Params
 
-- Host: localhost
-- Port: 3306
-- Database: flymestudio
+| Attr | Value |
+| - | - |
+| Host | localhost |
+| Port | 3306 |
+| Database | flymestudio |
 
 ---
 ## Tables

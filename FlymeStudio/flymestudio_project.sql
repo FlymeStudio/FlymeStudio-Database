@@ -27,7 +27,6 @@ DROP TABLE IF EXISTS `project`;
 CREATE TABLE `project` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `tel` varchar(11) NOT NULL,
-  `percent` int(3) NOT NULL,
   `type` int(1) NOT NULL,
   `date` varchar(16) NOT NULL,
   `title` tinytext NOT NULL,
@@ -57,4 +56,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-04-08 19:14:02
+-- Dump completed on 2018-04-09 18:47:50
