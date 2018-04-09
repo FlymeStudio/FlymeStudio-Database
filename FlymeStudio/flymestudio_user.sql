@@ -29,6 +29,7 @@ CREATE TABLE `user` (
   `name` tinytext NOT NULL,
   `email` varchar(32) NOT NULL,
   `password` varchar(8) NOT NULL,
+  `teams` longtext NOT NULL,
   PRIMARY KEY (`tel`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -39,7 +40,7 @@ CREATE TABLE `user` (
 
 LOCK TABLES `user` WRITE;
 /*!40000 ALTER TABLE `user` DISABLE KEYS */;
-INSERT INTO `user` VALUES ('13608089849','曾宇','1213814232@qq.com','123456');
+INSERT INTO `user` VALUES ('13608089849','曾宇','1213814232@qq.com','123456','');
 /*!40000 ALTER TABLE `user` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -52,4 +53,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-04-08 19:14:02
+-- Dump completed on 2018-04-09  9:19:05
