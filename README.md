@@ -38,10 +38,10 @@ sudo apt-get install mysql-workbench
   <tr>
     <td id="user_tel">tel</td>
     <td>varchar(11)</td>
-    <td>[x]</td>
+    <td>:ballot_box_with_check:</td>
     <td></td>
     <td></td>
-    <td>[x]</td>
+    <td>:ballot_box_with_check:</td>
     <td>固定11位</td>
   </tr>
   <tr>
@@ -50,7 +50,7 @@ sudo apt-get install mysql-workbench
     <td></td>
     <td></td>
     <td></td>
-    <td>[x]</td>
+    <td>:ballot_box_with_check:</td>
     <td>2-4位中文</td>
   </tr>
   <tr>
@@ -59,7 +59,7 @@ sudo apt-get install mysql-workbench
     <td></td>
     <td></td>
     <td></td>
-    <td>[x]</td>
+    <td>:ballot_box_with_check:</td>
     <td></td>
   </tr>
   <tr>
@@ -68,7 +68,7 @@ sudo apt-get install mysql-workbench
     <td></td>
     <td></td>
     <td></td>
-    <td>[x]</td>
+    <td>:ballot_box_with_check:</td>
     <td></td>
   </tr>
   <tr>
@@ -77,7 +77,7 @@ sudo apt-get install mysql-workbench
     <td></td>
     <td></td>
     <td></td>
-    <td>[x]</td>
+    <td>:ballot_box_with_check:</td>
     <td>JSON字符串</td>
   </tr>
 </table>
@@ -97,10 +97,10 @@ sudo apt-get install mysql-workbench
   <tr>
     <td>id</td>
     <td>int(11)</td>
-    <td>[x]</td>
+    <td>:ballot_box_with_check:</td>
     <td></td>
-    <td>[x]</td>
-    <td>[x]</td>
+    <td>:ballot_box_with_check:</td>
+    <td>:ballot_box_with_check:</td>
     <td></td>
   </tr>
   <tr>
@@ -109,16 +109,16 @@ sudo apt-get install mysql-workbench
     <td></td>
     <td></td>
     <td></td>
-    <td>[x]</td>
+    <td>:ballot_box_with_check:</td>
     <td></td>
   </tr>
   <tr>
     <td>tel</td>
     <td>varchar(11)</td>
     <td></td>
-    <td><a href="#user_tel">[x]</a></td>
+    <td><a href="#user_tel">:ballot_box_with_check:</a></td>
     <td></td>
-    <td>[x]</td>
+    <td>:ballot_box_with_check:</td>
     <td>user.tel</td>
   </tr>
   <tr>
@@ -127,7 +127,7 @@ sudo apt-get install mysql-workbench
     <td></td>
     <td></td>
     <td></td>
-    <td>[x]</td>
+    <td>:ballot_box_with_check:</td>
     <td>JSON字符串</td>
   </tr>
 </table>
@@ -147,10 +147,10 @@ sudo apt-get install mysql-workbench
   <tr>
     <td>id</td>
     <td>int(11)</td>
-    <td>[x]</td>
+    <td>:ballot_box_with_check:</td>
     <td></td>
-    <td>[x]</td>
-    <td>[x]</td>
+    <td>:ballot_box_with_check:</td>
+    <td>:ballot_box_with_check:</td>
     <td></td>
   </tr>
   <tr>
@@ -159,34 +159,34 @@ sudo apt-get install mysql-workbench
     <td></td>
     <td></td>
     <td></td>
-    <td>[x]</td>
+    <td>:ballot_box_with_check:</td>
     <td>1=invite；2=apply</td>
   </tr>
   <tr>
     <td>sender</td>
     <td>varchar(11)</td>
     <td></td>
-    <td><a href="#user_tel">[x]</a></td>
+    <td><a href="#user_tel">:ballot_box_with_check:</a></td>
     <td></td>
-    <td>[x]</td>
+    <td>:ballot_box_with_check:</td>
     <td>user.tel</td>
   </tr>
   <tr>
     <td>receiver</td>
     <td>varchar(11)</td>
     <td></td>
-    <td><a href="#user_tel">[x]</a></td>
+    <td><a href="#user_tel">:ballot_box_with_check:</a></td>
     <td></td>
-    <td>[x]</td>
+    <td>:ballot_box_with_check:</td>
     <td>user.tel</td>
   </tr>
   <tr>
     <td>teamid</td>
     <td>int(11)</td>
     <td></td>
-    <td><a href="#team_id">[x]</a></td>
+    <td><a href="#team_id">:ballot_box_with_check:</a></td>
     <td></td>
-    <td>[x]</td>
+    <td>:ballot_box_with_check:</td>
     <td>team.id</td>
   </tr>
 </table>
@@ -206,19 +206,19 @@ sudo apt-get install mysql-workbench
   <tr>
     <td>id</td>
     <td>int(11)</td>
-    <td>[x]</td>
+    <td>:ballot_box_with_check:</td>
     <td></td>
-    <td>[x]</td>
-    <td>[x]</td>
+    <td>:ballot_box_with_check:</td>
+    <td>:ballot_box_with_check:</td>
     <td></td>
   </tr>
   <tr>
     <td>tel</td>
     <td>varchar(11)</td>
     <td></td>
-    <td><a href="#user_tel">[x]</a></td>
+    <td><a href="#user_tel">:ballot_box_with_check:</a></td>
     <td></td>
-    <td>[x]</td>
+    <td>:ballot_box_with_check:</td>
     <td>user.tel</td>
   </tr>
   <tr>
@@ -227,7 +227,7 @@ sudo apt-get install mysql-workbench
     <td></td>
     <td></a></td>
     <td></td>
-    <td>[x]</td>
+    <td>:ballot_box_with_check:</td>
     <td>最大3位，默认为0</td>
   </tr>
   <tr>
@@ -236,7 +236,7 @@ sudo apt-get install mysql-workbench
     <td></td>
     <td></td>
     <td></td>
-    <td>[x]</td>
+    <td>:ballot_box_with_check:</td>
     <td>1=Yearly；2=Monthly；3=Weekly；4=Daily</td>
   </tr>
   <tr>
@@ -245,7 +245,7 @@ sudo apt-get install mysql-workbench
     <td></td>
     <td></td>
     <td></td>
-    <td>[x]</td>
+    <td>:ballot_box_with_check:</td>
     <td></td>
   </tr>
   <tr>
@@ -254,7 +254,7 @@ sudo apt-get install mysql-workbench
     <td></td>
     <td></td>
     <td></td>
-    <td>[x]</td>
+    <td>:ballot_box_with_check:</td>
     <td></td>
   </tr>
   <tr>
@@ -263,7 +263,7 @@ sudo apt-get install mysql-workbench
     <td></td>
     <td></td>
     <td></td>
-    <td>[x]</td>
+    <td>:ballot_box_with_check:</td>
     <td>Markdown内容</td>
   </tr>
   <tr>
@@ -272,7 +272,7 @@ sudo apt-get install mysql-workbench
     <td></td>
     <td></td>
     <td></td>
-    <td>[x]</td>
+    <td>:ballot_box_with_check:</td>
     <td>JSON字符串</td>
   </tr>
 </table>
@@ -292,19 +292,19 @@ sudo apt-get install mysql-workbench
   <tr>
     <td>id</td>
     <td>int(11)</td>
-    <td>[x]</td>
+    <td>:ballot_box_with_check:</td>
     <td></td>
-    <td>[x]</td>
-    <td>[x]</td>
+    <td>:ballot_box_with_check:</td>
+    <td>:ballot_box_with_check:</td>
     <td></td>
   </tr>
   <tr>
     <td>tel</td>
     <td>varchar(11)</td>
     <td></td>
-    <td><a href="#user_tel">[x]</a></td>
+    <td><a href="#user_tel">:ballot_box_with_check:</a></td>
     <td></td>
-    <td>[x]</td>
+    <td>:ballot_box_with_check:</td>
     <td>user.tel</td>
   </tr>
   <tr>
@@ -313,7 +313,7 @@ sudo apt-get install mysql-workbench
     <td></td>
     <td></td>
     <td></td>
-    <td>[x]</td>
+    <td>:ballot_box_with_check:</td>
     <td>1=Yearly；2=Monthly；3=Weekly；4=Daily</td>
   </tr>
   <tr>
@@ -322,7 +322,7 @@ sudo apt-get install mysql-workbench
     <td></td>
     <td></td>
     <td></td>
-    <td>[x]</td>
+    <td>:ballot_box_with_check:</td>
     <td></td>
   </tr>
   <tr>
@@ -331,7 +331,7 @@ sudo apt-get install mysql-workbench
     <td></td>
     <td></td>
     <td></td>
-    <td>[x]</td>
+    <td>:ballot_box_with_check:</td>
     <td></td>
   </tr>
   <tr>
@@ -340,7 +340,7 @@ sudo apt-get install mysql-workbench
     <td></td>
     <td></td>
     <td></td>
-    <td>[x]</td>
+    <td>:ballot_box_with_check:</td>
     <td>Markdown内容</td>
   </tr>
 </table>
