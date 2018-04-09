@@ -23,17 +23,17 @@ sudo apt-get install mysql-workbench
 ---
 ## Tables
 
-- user
+### *user*
 
-<table width=100%>
+<table>
   <tr>
-    <th width=15%, bgcolor=lightgrey><center>Column</center></th>
-    <th width=15%, bgcolor=lightgrey><center>Type</center></th>
-    <th width="10%", bgcolor=lightgrey><center>PK</center></th>
-    <th width="10%", bgcolor=lightgrey><center>FK</center></th>
-    <th width="10%", bgcolor=lightgrey><center>AI</center></th>
-    <th width="10%", bgcolor=lightgrey><center>NN</center></th>
-    <th width="30%", bgcolor=lightgrey><center>Note</center></th>
+    <th width=15%, bgcolor=lightgrey>Column</th>
+    <th width=15%, bgcolor=lightgrey>Type</th>
+    <th width="10%", bgcolor=lightgrey>PK</th>
+    <th width="10%", bgcolor=lightgrey>FK</th>
+    <th width="10%", bgcolor=lightgrey>AI</th>
+    <th width="10%", bgcolor=lightgrey>NN</th>
+    <th width="30%", bgcolor=lightgrey>Note</th>
   </tr>
   <tr>
     <td id="user_tel">tel</td>
@@ -82,17 +82,18 @@ sudo apt-get install mysql-workbench
   </tr>
 </table>
 
-- team
+** **
+### *team*
 
-<table width=100%>
+<table>
   <tr>
-    <th width=15%, bgcolor=lightgrey><center>Column</center></th>
-    <th width=15%, bgcolor=lightgrey><center>Type</center></th>
-    <th width="10%", bgcolor=lightgrey><center>PK</center></th>
-    <th width="10%", bgcolor=lightgrey><center>FK</center></th>
-    <th width="10%", bgcolor=lightgrey><center>AI</center></th>
-    <th width="10%", bgcolor=lightgrey><center>NN</center></th>
-    <th width="30%", bgcolor=lightgrey><center>Note</center></th>
+    <th width=15%, bgcolor=lightgrey>Column</th>
+    <th width=15%, bgcolor=lightgrey>Type</th>
+    <th width="10%", bgcolor=lightgrey>PK</th>
+    <th width="10%", bgcolor=lightgrey>FK</th>
+    <th width="10%", bgcolor=lightgrey>AI</th>
+    <th width="10%", bgcolor=lightgrey>NN</th>
+    <th width="30%", bgcolor=lightgrey>Note</th>
   </tr>
   <tr>
     <td>id</td>
@@ -132,17 +133,18 @@ sudo apt-get install mysql-workbench
   </tr>
 </table>
 
-- message
+** **
+### *message*
 
-<table width=100%>
+<table>
   <tr>
-    <th width=15%, bgcolor=lightgrey><center>Column</center></th>
-    <th width=15%, bgcolor=lightgrey><center>Type</center></th>
-    <th width="10%", bgcolor=lightgrey><center>PK</center></th>
-    <th width="10%", bgcolor=lightgrey><center>FK</center></th>
-    <th width="10%", bgcolor=lightgrey><center>AI</center></th>
-    <th width="10%", bgcolor=lightgrey><center>NN</center></th>
-    <th width="30%", bgcolor=lightgrey><center>Note</center></th>
+    <th width=15%, bgcolor=lightgrey>Column</th>
+    <th width=15%, bgcolor=lightgrey>Type</th>
+    <th width="10%", bgcolor=lightgrey>PK</th>
+    <th width="10%", bgcolor=lightgrey>FK</th>
+    <th width="10%", bgcolor=lightgrey>AI</th>
+    <th width="10%", bgcolor=lightgrey>NN</th>
+    <th width="30%", bgcolor=lightgrey>Note</th>
   </tr>
   <tr>
     <td>id</td>
@@ -191,17 +193,18 @@ sudo apt-get install mysql-workbench
   </tr>
 </table>
 
-- project
+** **
+### *project*
 
-<table width=100%>
+<table>
   <tr>
-    <th width=15%, bgcolor=lightgrey><center>Column</center></th>
-    <th width=15%, bgcolor=lightgrey><center>Type</center></th>
-    <th width="10%", bgcolor=lightgrey><center>PK</center></th>
-    <th width="10%", bgcolor=lightgrey><center>FK</center></th>
-    <th width="10%", bgcolor=lightgrey><center>AI</center></th>
-    <th width="10%", bgcolor=lightgrey><center>NN</center></th>
-    <th width="30%", bgcolor=lightgrey><center>Note</center></th>
+    <th width=15%, bgcolor=lightgrey>Column</th>
+    <th width=15%, bgcolor=lightgrey>Type</th>
+    <th width="10%", bgcolor=lightgrey>PK</th>
+    <th width="10%", bgcolor=lightgrey>FK</th>
+    <th width="10%", bgcolor=lightgrey>AI</th>
+    <th width="10%", bgcolor=lightgrey>NN</th>
+    <th width="30%", bgcolor=lightgrey>Note</th>
   </tr>
   <tr>
     <td>id</td>
@@ -277,17 +280,18 @@ sudo apt-get install mysql-workbench
   </tr>
 </table>
 
-- summary
+** **
+### *summary*
 
-<table width=100%>
+<table>
   <tr>
-    <th width=15%, bgcolor=lightgrey><center>Column</center></th>
-    <th width=15%, bgcolor=lightgrey><center>Type</center></th>
-    <th width="10%", bgcolor=lightgrey><center>PK</center></th>
-    <th width="10%", bgcolor=lightgrey><center>FK</center></th>
-    <th width="10%", bgcolor=lightgrey><center>AI</center></th>
-    <th width="10%", bgcolor=lightgrey><center>NN</center></th>
-    <th width="30%", bgcolor=lightgrey><center>Note</center></th>
+    <th width=15%, bgcolor=lightgrey>Column</th>
+    <th width=15%, bgcolor=lightgrey>Type</th>
+    <th width="10%", bgcolor=lightgrey>PK</th>
+    <th width="10%", bgcolor=lightgrey>FK</th>
+    <th width="10%", bgcolor=lightgrey>AI</th>
+    <th width="10%", bgcolor=lightgrey>NN</th>
+    <th width="30%", bgcolor=lightgrey>Note</th>
   </tr>
   <tr>
     <td>id</td>
