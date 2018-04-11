@@ -31,7 +31,7 @@ CREATE TABLE `project` (
   `date` varchar(16) NOT NULL,
   `title` tinytext NOT NULL,
   `content` longtext NOT NULL,
-  `plans` longtext NOT NULL,
+  `plans` longtext,
   PRIMARY KEY (`id`),
   KEY `fk_project_1_idx` (`tel`),
   CONSTRAINT `fk_project_1` FOREIGN KEY (`tel`) REFERENCES `user` (`tel`) ON DELETE NO ACTION ON UPDATE NO ACTION
@@ -56,4 +56,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-04-09 18:47:50
+-- Dump completed on 2018-04-11 10:57:45

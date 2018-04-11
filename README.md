@@ -79,7 +79,7 @@ sudo apt-get install mysql-workbench
     <td></td>
     <td></td>
     <td></td>
-    <td>:ballot_box_with_check:</td>
+    <td></td>
     <td>JSON数组字符串</td>
   </tr>
 </table>
@@ -268,7 +268,7 @@ sudo apt-get install mysql-workbench
     <td></td>
     <td></td>
     <td></td>
-    <td>:ballot_box_with_check:</td>
+    <td></td>
     <td>JSON字符串</td>
   </tr>
 </table>
