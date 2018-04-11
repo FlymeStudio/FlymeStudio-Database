@@ -31,11 +31,11 @@ sudo apt-get install mysql-workbench
   <tr>
     <th width=15%, bgcolor=lightgrey>Column</th>
     <th width=15%, bgcolor=lightgrey>Type</th>
-    <th width="10%", bgcolor=lightgrey>PK</th>
-    <th width="10%", bgcolor=lightgrey>FK</th>
-    <th width="10%", bgcolor=lightgrey>AI</th>
-    <th width="10%", bgcolor=lightgrey>NN</th>
-    <th width="30%", bgcolor=lightgrey>Note</th>
+    <th width="10%" , bgcolor=lightgrey>PK</th>
+    <th width="10%" , bgcolor=lightgrey>FK</th>
+    <th width="10%" , bgcolor=lightgrey>AI</th>
+    <th width="10%" , bgcolor=lightgrey>NN</th>
+    <th width="30%" , bgcolor=lightgrey>Note</th>
   </tr>
   <tr>
     <td id="user_tel">tel</td>
@@ -91,11 +91,11 @@ sudo apt-get install mysql-workbench
   <tr>
     <th width=15%, bgcolor=lightgrey>Column</th>
     <th width=15%, bgcolor=lightgrey>Type</th>
-    <th width="10%", bgcolor=lightgrey>PK</th>
-    <th width="10%", bgcolor=lightgrey>FK</th>
-    <th width="10%", bgcolor=lightgrey>AI</th>
-    <th width="10%", bgcolor=lightgrey>NN</th>
-    <th width="30%", bgcolor=lightgrey>Note</th>
+    <th width="10%" , bgcolor=lightgrey>PK</th>
+    <th width="10%" , bgcolor=lightgrey>FK</th>
+    <th width="10%" , bgcolor=lightgrey>AI</th>
+    <th width="10%" , bgcolor=lightgrey>NN</th>
+    <th width="30%" , bgcolor=lightgrey>Note</th>
   </tr>
   <tr>
     <td id="team_id">id</td>
@@ -142,11 +142,11 @@ sudo apt-get install mysql-workbench
   <tr>
     <th width=15%, bgcolor=lightgrey>Column</th>
     <th width=15%, bgcolor=lightgrey>Type</th>
-    <th width="10%", bgcolor=lightgrey>PK</th>
-    <th width="10%", bgcolor=lightgrey>FK</th>
-    <th width="10%", bgcolor=lightgrey>AI</th>
-    <th width="10%", bgcolor=lightgrey>NN</th>
-    <th width="30%", bgcolor=lightgrey>Note</th>
+    <th width="10%" , bgcolor=lightgrey>PK</th>
+    <th width="10%" , bgcolor=lightgrey>FK</th>
+    <th width="10%" , bgcolor=lightgrey>AI</th>
+    <th width="10%" , bgcolor=lightgrey>NN</th>
+    <th width="30%" , bgcolor=lightgrey>Note</th>
   </tr>
   <tr>
     <td>id</td>
@@ -202,11 +202,11 @@ sudo apt-get install mysql-workbench
   <tr>
     <th width=15%, bgcolor=lightgrey>Column</th>
     <th width=15%, bgcolor=lightgrey>Type</th>
-    <th width="10%", bgcolor=lightgrey>PK</th>
-    <th width="10%", bgcolor=lightgrey>FK</th>
-    <th width="10%", bgcolor=lightgrey>AI</th>
-    <th width="10%", bgcolor=lightgrey>NN</th>
-    <th width="30%", bgcolor=lightgrey>Note</th>
+    <th width="10%" , bgcolor=lightgrey>PK</th>
+    <th width="10%" , bgcolor=lightgrey>FK</th>
+    <th width="10%" , bgcolor=lightgrey>AI</th>
+    <th width="10%" , bgcolor=lightgrey>NN</th>
+    <th width="30%" , bgcolor=lightgrey>Note</th>
   </tr>
   <tr>
     <td>id</td>
@@ -280,11 +280,11 @@ sudo apt-get install mysql-workbench
   <tr>
     <th width=15%, bgcolor=lightgrey>Column</th>
     <th width=15%, bgcolor=lightgrey>Type</th>
-    <th width="10%", bgcolor=lightgrey>PK</th>
-    <th width="10%", bgcolor=lightgrey>FK</th>
-    <th width="10%", bgcolor=lightgrey>AI</th>
-    <th width="10%", bgcolor=lightgrey>NN</th>
-    <th width="30%", bgcolor=lightgrey>Note</th>
+    <th width="10%" , bgcolor=lightgrey>PK</th>
+    <th width="10%" , bgcolor=lightgrey>FK</th>
+    <th width="10%" , bgcolor=lightgrey>AI</th>
+    <th width="10%" , bgcolor=lightgrey>NN</th>
+    <th width="30%" , bgcolor=lightgrey>Note</th>
   </tr>
   <tr>
     <td>id</td>
