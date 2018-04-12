@@ -27,15 +27,15 @@ DROP TABLE IF EXISTS `message`;
 CREATE TABLE `message` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `type` int(1) NOT NULL,
-  `sender` varchar(11) NOT NULL,
-  `receiver` varchar(11) NOT NULL,
+  `sender` varchar(8) NOT NULL,
+  `receiver` varchar(8) NOT NULL,
   `teamid` int(11) NOT NULL,
   PRIMARY KEY (`id`),
   KEY `fk_message_1_idx` (`sender`),
   KEY `fk_message_2_idx` (`receiver`),
   KEY `fk_message_3_idx` (`teamid`),
-  CONSTRAINT `fk_message_1` FOREIGN KEY (`sender`) REFERENCES `user` (`tel`) ON DELETE NO ACTION ON UPDATE NO ACTION,
-  CONSTRAINT `fk_message_2` FOREIGN KEY (`receiver`) REFERENCES `user` (`tel`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `fk_message_1` FOREIGN KEY (`sender`) REFERENCES `user` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `fk_message_2` FOREIGN KEY (`receiver`) REFERENCES `user` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   CONSTRAINT `fk_message_3` FOREIGN KEY (`teamid`) REFERENCES `team` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -58,4 +58,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-04-11 10:57:45
+-- Dump completed on 2018-04-12 11:22:49

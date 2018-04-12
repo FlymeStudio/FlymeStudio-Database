@@ -38,9 +38,27 @@ sudo apt-get install mysql-workbench
     <th width=30% , bgcolor=lightgrey>Note</th>
   </tr>
   <tr>
+    <td id="user_id">id</td>
+    <td>int(11)</td>
+    <td>:ballot_box_with_check:</td>
+    <td></td>
+    <td></td>
+    <td>:ballot_box_with_check:</td>
+    <td>固定11位</td>
+  </tr>
+  <tr>
+    <td>num</td>
+    <td>varchar(8)</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>:ballot_box_with_check:</td>
+    <td>最大8位数字字符</td>
+  </tr>
+  <tr>
     <td id="user_tel">tel</td>
     <td>varchar(11)</td>
-    <td>:ballot_box_with_check:</td>
+    <td></td>
     <td></td>
     <td></td>
     <td>:ballot_box_with_check:</td>
@@ -116,13 +134,13 @@ sudo apt-get install mysql-workbench
     <td>最大8位汉字</td>
   </tr>
   <tr>
-    <td>tel</td>
-    <td>varchar(11)</td>
+    <td>user</td>
+    <td>varchar(8)</td>
     <td></td>
-    <td><a href="#user_tel">:ballot_box_with_check:</a></td>
+    <td><a href="#user_id">:ballot_box_with_check:</a></td>
     <td></td>
     <td>:ballot_box_with_check:</td>
-    <td>user.tel</td>
+    <td>user.id</td>
   </tr>
   <tr>
     <td>members</td>
@@ -168,21 +186,21 @@ sudo apt-get install mysql-workbench
   </tr>
   <tr>
     <td>sender</td>
-    <td>varchar(11)</td>
+    <td>varchar(8)</td>
     <td></td>
-    <td><a href="#user_tel">:ballot_box_with_check:</a></td>
+    <td><a href="#user_id">:ballot_box_with_check:</a></td>
     <td></td>
     <td>:ballot_box_with_check:</td>
-    <td>user.tel</td>
+    <td>user.id</td>
   </tr>
   <tr>
     <td>receiver</td>
-    <td>varchar(11)</td>
+    <td>varchar(8)</td>
     <td></td>
-    <td><a href="#user_tel">:ballot_box_with_check:</a></td>
+    <td><a href="#user_id">:ballot_box_with_check:</a></td>
     <td></td>
     <td>:ballot_box_with_check:</td>
-    <td>user.tel</td>
+    <td>user.id</td>
   </tr>
   <tr>
     <td>teamid</td>
@@ -218,13 +236,13 @@ sudo apt-get install mysql-workbench
     <td></td>
   </tr>
   <tr>
-    <td>tel</td>
-    <td>varchar(11)</td>
+    <td>user</td>
+    <td>varchar(8)</td>
     <td></td>
-    <td><a href="#user_tel">:ballot_box_with_check:</a></td>
+    <td><a href="#user_id">:ballot_box_with_check:</a></td>
     <td></td>
     <td>:ballot_box_with_check:</td>
-    <td>user.tel</td>
+    <td>user.id</td>
   </tr>
   <tr>
     <td>type</td>
@@ -296,13 +314,13 @@ sudo apt-get install mysql-workbench
     <td></td>
   </tr>
   <tr>
-    <td>tel</td>
-    <td>varchar(11)</td>
+    <td>user</td>
+    <td>varchar(8)</td>
     <td></td>
-    <td><a href="#user_tel">:ballot_box_with_check:</a></td>
+    <td><a href="#user_id">:ballot_box_with_check:</a></td>
     <td></td>
     <td>:ballot_box_with_check:</td>
-    <td>user.tel</td>
+    <td>user.id</td>
   </tr>
   <tr>
     <td>type</td>
