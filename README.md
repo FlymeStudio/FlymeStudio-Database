@@ -42,7 +42,7 @@ sudo apt-get install mysql-workbench
     <td>int(11)</td>
     <td>:ballot_box_with_check:</td>
     <td></td>
-    <td></td>
+    <td>:ballot_box_with_check:</td>
     <td>:ballot_box_with_check:</td>
     <td>固定11位</td>
   </tr>
