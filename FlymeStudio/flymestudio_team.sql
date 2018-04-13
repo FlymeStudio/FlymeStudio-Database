@@ -27,11 +27,11 @@ DROP TABLE IF EXISTS `team`;
 CREATE TABLE `team` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` tinytext NOT NULL,
-  `user` varchar(8) NOT NULL,
+  `user_id` int(11) NOT NULL,
   `members` longtext NOT NULL,
   PRIMARY KEY (`id`),
-  KEY `fk_team_1_idx` (`user`),
-  CONSTRAINT `fk_team_1` FOREIGN KEY (`user`) REFERENCES `user` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
+  KEY `fk_team_1_idx` (`user_id`),
+  CONSTRAINT `fk_team_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -53,4 +53,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-04-12 11:22:49
+-- Dump completed on 2018-04-13 10:03:11

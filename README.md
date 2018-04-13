@@ -134,8 +134,8 @@ sudo apt-get install mysql-workbench
     <td>最大8位汉字</td>
   </tr>
   <tr>
-    <td>user</td>
-    <td>varchar(8)</td>
+    <td>user_id</td>
+    <td>int(11)</td>
     <td></td>
     <td><a href="#user_id">:ballot_box_with_check:</a></td>
     <td></td>
@@ -185,8 +185,8 @@ sudo apt-get install mysql-workbench
     <td>1=invite；2=apply</td>
   </tr>
   <tr>
-    <td>sender</td>
-    <td>varchar(8)</td>
+    <td>sender_id</td>
+    <td>int(11)</td>
     <td></td>
     <td><a href="#user_id">:ballot_box_with_check:</a></td>
     <td></td>
@@ -194,8 +194,8 @@ sudo apt-get install mysql-workbench
     <td>user.id</td>
   </tr>
   <tr>
-    <td>receiver</td>
-    <td>varchar(8)</td>
+    <td>receiver_id</td>
+    <td>int(11)</td>
     <td></td>
     <td><a href="#user_id">:ballot_box_with_check:</a></td>
     <td></td>
@@ -203,7 +203,7 @@ sudo apt-get install mysql-workbench
     <td>user.id</td>
   </tr>
   <tr>
-    <td>teamid</td>
+    <td>team_id</td>
     <td>int(11)</td>
     <td></td>
     <td><a href="#team_id">:ballot_box_with_check:</a></td>
@@ -236,8 +236,8 @@ sudo apt-get install mysql-workbench
     <td></td>
   </tr>
   <tr>
-    <td>user</td>
-    <td>varchar(8)</td>
+    <td>user_id</td>
+    <td>int(11)</td>
     <td></td>
     <td><a href="#user_id">:ballot_box_with_check:</a></td>
     <td></td>
@@ -255,7 +255,7 @@ sudo apt-get install mysql-workbench
   </tr>
   <tr>
     <td>date</td>
-    <td>varchar(16)</td>
+    <td>bigint(16)</td>
     <td></td>
     <td></td>
     <td></td>
@@ -314,8 +314,8 @@ sudo apt-get install mysql-workbench
     <td></td>
   </tr>
   <tr>
-    <td>user</td>
-    <td>varchar(8)</td>
+    <td>user_id</td>
+    <td>int(11)</td>
     <td></td>
     <td><a href="#user_id">:ballot_box_with_check:</a></td>
     <td></td>
@@ -333,7 +333,7 @@ sudo apt-get install mysql-workbench
   </tr>
   <tr>
     <td>date</td>
-    <td>varchar(16)</td>
+    <td>bigint(16)</td>
     <td></td>
     <td></td>
     <td></td>

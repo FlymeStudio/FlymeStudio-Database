@@ -25,7 +25,8 @@ DROP TABLE IF EXISTS `user`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `user` (
-  `id` varchar(8) NOT NULL,
+  `id` int(11) NOT NULL,
+  `num` varchar(8) NOT NULL,
   `tel` varchar(11) NOT NULL,
   `name` tinytext NOT NULL,
   `email` varchar(32) NOT NULL,
@@ -53,4 +54,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-04-12 11:22:49
+-- Dump completed on 2018-04-13 10:03:11
